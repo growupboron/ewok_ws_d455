@@ -1,0 +1,148 @@
+[  0%] Built target mav_msgs_generate_messages_py
+[  0%] Built target topic_tools_generate_messages_lisp
+[  0%] Built target pcl_msgs_generate_messages_eus
+[  0%] Built target bond_generate_messages_py
+[  0%] Built target trajectory_msgs_generate_messages_nodejs
+[  0%] Built target topic_tools_generate_messages_nodejs
+[  0%] Built target mav_msgs_generate_messages_eus
+[  0%] Built target mav_msgs_generate_messages_nodejs
+[  0%] Built target topic_tools_generate_messages_eus
+[  0%] Built target topic_tools_generate_messages_cpp
+[  0%] Built target pcl_msgs_generate_messages_cpp
+[ 14%] Built target pubCamPose
+[ 14%] Built target bond_generate_messages_eus
+[ 14%] Built target bond_generate_messages_lisp
+[ 14%] Built target nodelet_generate_messages_lisp
+[ 14%] Built target nodelet_generate_messages_eus
+[ 14%] Built target nodelet_generate_messages_nodejs
+[ 14%] Built target nodelet_generate_messages_cpp
+[ 14%] Built target dynamic_reconfigure_generate_messages_eus
+[ 14%] Built target dynamic_reconfigure_generate_messages_nodejs
+[ 14%] Built target dynamic_reconfigure_generate_messages_py
+[ 14%] Built target dynamic_reconfigure_generate_messages_lisp
+[ 14%] Built target pcl_ros_gencfg
+[ 14%] Built target tf_generate_messages_py
+[ 14%] Built target dynamic_reconfigure_generate_messages_cpp
+[ 14%] Built target mav_msgs_generate_messages_lisp
+[ 14%] Built target tf_generate_messages_lisp
+[ 14%] Built target octomap_msgs_generate_messages_py
+[ 14%] Built target uuid_msgs_generate_messages_eus
+[ 14%] Built target tf_generate_messages_nodejs
+[ 14%] Built target std_srvs_generate_messages_nodejs
+[ 14%] Built target diagnostic_msgs_generate_messages_py
+[ 14%] Built target octomap_msgs_generate_messages_nodejs
+[ 14%] Built target rosgraph_msgs_generate_messages_lisp
+[ 14%] Built target geographic_msgs_generate_messages_eus
+[ 14%] Built target rosgraph_msgs_generate_messages_eus
+[ 14%] Built target geometry_msgs_generate_messages_eus
+[ 14%] Built target std_srvs_generate_messages_py
+[ 14%] Built target diagnostic_msgs_generate_messages_nodejs
+[ 14%] Built target pcl_msgs_generate_messages_lisp
+[ 14%] Built target mavros_msgs_generate_messages_nodejs
+[ 14%] Built target geographic_msgs_generate_messages_nodejs
+[ 14%] Built target tf_generate_messages_cpp
+[ 14%] Built target geographic_msgs_generate_messages_cpp
+[ 14%] Built target diagnostic_msgs_generate_messages_lisp
+[ 14%] Built target actionlib_generate_messages_nodejs
+[ 14%] Built target std_srvs_generate_messages_cpp
+[ 14%] Built target roscpp_generate_messages_lisp
+[ 14%] Built target diagnostic_msgs_generate_messages_eus
+[ 14%] Built target std_srvs_generate_messages_eus
+[ 14%] Built target mav_msgs_generate_messages_cpp
+[ 14%] Built target uuid_msgs_generate_messages_lisp
+[ 14%] Built target octomap_msgs_generate_messages_lisp
+[ 14%] Built target actionlib_msgs_generate_messages_lisp
+[ 14%] Built target rosgraph_msgs_generate_messages_cpp
+[ 14%] Built target geographic_msgs_generate_messages_lisp
+[ 14%] Built target std_srvs_generate_messages_lisp
+[ 14%] Built target rosgraph_msgs_generate_messages_nodejs
+[ 14%] Built target std_msgs_generate_messages_eus
+[ 14%] Built target sensor_msgs_generate_messages_eus
+[ 14%] Built target roscpp_generate_messages_py
+[ 14%] Built target trajectory_msgs_generate_messages_py
+[ 14%] Built target std_msgs_generate_messages_cpp
+[ 14%] Built target actionlib_msgs_generate_messages_nodejs
+[ 14%] Built target trajectory_msgs_generate_messages_eus
+[ 14%] Built target nav_msgs_generate_messages_nodejs
+[ 14%] Built target nodelet_topic_tools_gencfg
+[ 14%] Built target topic_tools_generate_messages_py
+[ 14%] Built target geographic_msgs_generate_messages_py
+[ 14%] Built target sensor_msgs_generate_messages_nodejs
+[ 14%] Built target octomap_msgs_generate_messages_eus
+[ 14%] Built target roscpp_generate_messages_cpp
+[ 14%] Built target actionlib_generate_messages_cpp
+[ 14%] Built target geometry_msgs_generate_messages_py
+[ 14%] Built target std_msgs_generate_messages_lisp
+[ 14%] Built target roscpp_generate_messages_nodejs
+[ 14%] Built target geometry_msgs_generate_messages_nodejs
+[ 14%] Built target geometry_msgs_generate_messages_lisp
+[ 14%] Built target std_msgs_generate_messages_nodejs
+[ 14%] Built target uuid_msgs_generate_messages_cpp
+[ 14%] Built target uuid_msgs_generate_messages_nodejs
+[ 14%] Built target std_msgs_generate_messages_py
+[ 14%] Built target mavros_msgs_generate_messages_cpp
+[ 14%] Built target uuid_msgs_generate_messages_py
+[ 14%] Built target sensor_msgs_generate_messages_lisp
+[ 14%] Built target mavros_msgs_generate_messages_py
+[ 14%] Built target trajectory_msgs_generate_messages_cpp
+[ 14%] Built target mavros_msgs_generate_messages_eus
+[ 14%] Built target nav_msgs_generate_messages_cpp
+[ 14%] Built target mavros_msgs_generate_messages_lisp
+[ 14%] Built target sensor_msgs_generate_messages_py
+[ 14%] Built target nodelet_generate_messages_py
+[ 14%] Built target sensor_msgs_generate_messages_cpp
+[ 14%] Built target pcl_msgs_generate_messages_nodejs
+[ 14%] Built target nav_msgs_generate_messages_lisp
+[ 14%] Built target tf_generate_messages_eus
+[ 14%] Built target roscpp_generate_messages_eus
+[ 14%] Built target actionlib_msgs_generate_messages_eus
+[ 14%] Built target actionlib_msgs_generate_messages_cpp
+[ 14%] Built target rosgraph_msgs_generate_messages_py
+[ 14%] Built target octomap_msgs_generate_messages_cpp
+[ 14%] Built target actionlib_msgs_generate_messages_py
+[ 14%] Built target diagnostic_msgs_generate_messages_cpp
+[ 14%] Built target pcl_msgs_generate_messages_py
+[ 14%] Built target actionlib_generate_messages_eus
+[ 14%] Built target nav_msgs_generate_messages_eus
+[ 14%] Built target tf2_msgs_generate_messages_cpp
+[ 14%] Built target geometry_msgs_generate_messages_cpp
+[ 14%] Built target tf2_msgs_generate_messages_eus
+[ 14%] Built target actionlib_generate_messages_lisp
+[ 14%] Built target tf2_msgs_generate_messages_lisp
+[ 14%] Built target dynamic_reconfigure_gencfg
+[ 14%] Built target actionlib_generate_messages_py
+[ 14%] Built target nav_msgs_generate_messages_py
+[ 14%] Built target tf2_msgs_generate_messages_py
+[ 14%] Built target bond_generate_messages_cpp
+[ 14%] Built target bond_generate_messages_nodejs
+[ 14%] Built target tf2_msgs_generate_messages_nodejs
+[ 14%] Built target trajectory_msgs_generate_messages_lisp
+[ 28%] Built target pcNoise
+[35m[1mScanning dependencies of target trajectory_replanning_example[0m
+[35m[1mScanning dependencies of target trajectory_replanning_pointcloud[0m
+[35m[1mScanning dependencies of target trajectory_replanning_rishabh[0m
+[ 42%] Built target bspline_lee_position_controller_node
+[ 57%] Built target bspline_controller_rishabh
+[ 64%] [32mBuilding CXX object CMakeFiles/trajectory_replanning_example.dir/src/trajectory_replanning_example.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/trajectory_replanning_pointcloud.dir/src/trajectory_replanning_example_pointCloud.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/trajectory_replanning_rishabh.dir/src/trajectory_replanning_rishabh.cpp.o[0m
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_simulation/src/trajectory_replanning_example.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_simulation/src/trajectory_replanning_example.cpp:331:48:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kewok::UniformBSpline3DOptimization<6>::setDistanceBuffer(ewok::EuclideanDistanceRingBuffer<7>::Ptr&)[m[K’
+     spline_optimization->setDistanceBuffer(edrb[01;31m[K)[m[K;
+                                                [01;31m[K^[m[K
+In file included from [01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_simulation/src/trajectory_replanning_example.cpp:47:0[m[K:
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_optimization/include/ewok/uniform_bspline_3d_optimization.h:122:8:[m[K [01;36m[Knote: [m[Kcandidate: void ewok::UniformBSpline3DOptimization<_N, _Scalar>::setDistanceBuffer(ewok::EuclideanDistanceRingBuffer<6>::Ptr&) [with int _N = 6; _Scalar = double; ewok::EuclideanDistanceRingBuffer<6>::Ptr = std::shared_ptr<ewok::EuclideanDistanceRingBuffer<6> >]
+   void [01;36m[KsetDistanceBuffer[m[K(EuclideanDistanceRingBuffer<6>::Ptr & edrb) {
+        [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_optimization/include/ewok/uniform_bspline_3d_optimization.h:122:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kewok::EuclideanDistanceRingBuffer<7>::Ptr {aka std::shared_ptr<ewok::EuclideanDistanceRingBuffer<7> >}[m[K’ to ‘[01m[Kewok::EuclideanDistanceRingBuffer<6>::Ptr& {aka std::shared_ptr<ewok::EuclideanDistanceRingBuffer<6> >&}[m[K’
+CMakeFiles/trajectory_replanning_example.dir/build.make:62: recipe for target 'CMakeFiles/trajectory_replanning_example.dir/src/trajectory_replanning_example.cpp.o' failed
+make[2]: *** [CMakeFiles/trajectory_replanning_example.dir/src/trajectory_replanning_example.cpp.o] Error 1
+CMakeFiles/Makefile2:529: recipe for target 'CMakeFiles/trajectory_replanning_example.dir/all' failed
+make[1]: *** [CMakeFiles/trajectory_replanning_example.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 85%] [32m[1mLinking CXX executable /home/drone/Documents/ewok_ws_d455/devel/.private/ewok_simulation/lib/ewok_simulation/trajectory_replanning_rishabh[0m
+[ 92%] [32m[1mLinking CXX executable /home/drone/Documents/ewok_ws_d455/devel/.private/ewok_simulation/lib/ewok_simulation/trajectory_replanning_pointcloud[0m
+[ 92%] Built target trajectory_replanning_rishabh
+[ 92%] Built target trajectory_replanning_pointcloud
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

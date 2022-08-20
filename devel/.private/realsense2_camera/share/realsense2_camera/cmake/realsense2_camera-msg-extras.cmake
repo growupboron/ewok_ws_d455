@@ -1,0 +1,2 @@
+set(realsense2_camera_MESSAGE_FILES "/home/drone/Documents/ewok_ws_d455/src/catkin_realsense_d455/src/realsense-ros/realsense2_camera/msg/IMUInfo.msg;/home/drone/Documents/ewok_ws_d455/src/catkin_realsense_d455/src/realsense-ros/realsense2_camera/msg/Extrinsics.msg;/home/drone/Documents/ewok_ws_d455/src/catkin_realsense_d455/src/realsense-ros/realsense2_camera/msg/Metadata.msg")
+set(realsense2_camera_SERVICE_FILES "/home/drone/Documents/ewok_ws_d455/src/catkin_realsense_d455/src/realsense-ros/realsense2_camera/srv/DeviceInfo.srv")

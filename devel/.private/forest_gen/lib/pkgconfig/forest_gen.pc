@@ -1,0 +1,8 @@
+prefix=/home/drone/Documents/ewok_ws_d455/devel/.private/forest_gen
+
+Name: forest_gen
+Description: Description of forest_gen
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

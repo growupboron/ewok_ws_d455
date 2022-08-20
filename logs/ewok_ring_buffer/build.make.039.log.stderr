@@ -1,0 +1,188 @@
+In file included from [01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/src/ring_buffer_example.cpp:25:0[m[K:
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/include/ewok/ed_ring_buffer.h:34:18:[m[K [01;31m[Kerror: [m[Kuninitialized const ‘[01m[KPOW[m[K’ [[01;31m[K-fpermissive[m[K]
+ static const int [01;31m[KPOW[m[K;
+                  [01;31m[K^~~[m[K
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/include/ewok/ed_ring_buffer.h:35:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kpnh[m[K’ does not name a type; did you mean ‘[01m[Kpowh[m[K’?
+ [01;31m[Kpnh[m[K.param("POW", POW, 6);  // EuclideanDistanceRingBuffer or UniformBSpline3DOptimization
+ [01;31m[K^~~[m[K
+ [32m[Kpowh[m[K
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/src/ring_buffer_example.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/src/ring_buffer_example.cpp:40:39:[m[K [01;31m[Kerror: [m[Kthe value of ‘[01m[KPOW[m[K’ is not usable in a constant expression
+     ewok::EuclideanDistanceRingBuffer<[01;31m[KPOW[m[K> rrb(0.1, 1.0);
+                                       [01;31m[K^~~[m[K
+In file included from [01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/src/ring_buffer_example.cpp:25:0[m[K:
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/include/ewok/ed_ring_buffer.h:34:18:[m[K [01;36m[Knote: [m[K‘[01m[KPOW[m[K’ was not initialized with a constant expression
+ static const int [01;36m[KPOW[m[K;
+                  [01;36m[K^~~[m[K
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/src/ring_buffer_example.cpp:40:42:[m[K [01;31m[Kerror: [m[Kthe value of ‘[01m[KPOW[m[K’ is not usable in a constant expression
+     ewok::EuclideanDistanceRingBuffer<POW[01;31m[K>[m[K rrb(0.1, 1.0);
+                                          [01;31m[K^[m[K
+In file included from [01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/src/ring_buffer_example.cpp:25:0[m[K:
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/include/ewok/ed_ring_buffer.h:34:18:[m[K [01;36m[Knote: [m[K‘[01m[KPOW[m[K’ was not initialized with a constant expression
+ static const int [01;36m[KPOW[m[K;
+                  [01;36m[K^~~[m[K
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/src/ring_buffer_example.cpp:40:42:[m[K [01;36m[Knote: [m[Kin template argument for type ‘[01m[Kint[m[K’ 
+     ewok::EuclideanDistanceRingBuffer<POW[01;36m[K>[m[K rrb(0.1, 1.0);
+                                          [01;36m[K^[m[K
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/src/ring_buffer_example.cpp:40:56:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in initializer [[01;31m[K-fpermissive[m[K]
+     ewok::EuclideanDistanceRingBuffer<POW> rrb(0.1, 1.0[01;31m[K)[m[K;
+                                                        [01;31m[K^[m[K
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/src/ring_buffer_example.cpp:41:39:[m[K [01;31m[Kerror: [m[Kthe value of ‘[01m[KPOW[m[K’ is not usable in a constant expression
+     ewok::EuclideanDistanceRingBuffer<[01;31m[KPOW[m[K>::PointCloud cloud;
+                                       [01;31m[K^~~[m[K
+In file included from [01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/src/ring_buffer_example.cpp:25:0[m[K:
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/include/ewok/ed_ring_buffer.h:34:18:[m[K [01;36m[Knote: [m[K‘[01m[KPOW[m[K’ was not initialized with a constant expression
+ static const int [01;36m[KPOW[m[K;
+                  [01;36m[K^~~[m[K
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/src/ring_buffer_example.cpp:41:42:[m[K [01;31m[Kerror: [m[Kthe value of ‘[01m[KPOW[m[K’ is not usable in a constant expression
+     ewok::EuclideanDistanceRingBuffer<POW[01;31m[K>[m[K::PointCloud cloud;
+                                          [01;31m[K^[m[K
+In file included from [01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/src/ring_buffer_example.cpp:25:0[m[K:
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/include/ewok/ed_ring_buffer.h:34:18:[m[K [01;36m[Knote: [m[K‘[01m[KPOW[m[K’ was not initialized with a constant expression
+ static const int [01;36m[KPOW[m[K;
+                  [01;36m[K^~~[m[K
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/src/ring_buffer_example.cpp:41:42:[m[K [01;36m[Knote: [m[Kin template argument for type ‘[01m[Kint[m[K’ 
+     ewok::EuclideanDistanceRingBuffer<POW[01;36m[K>[m[K::PointCloud cloud;
+                                          [01;36m[K^[m[K
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/src/ring_buffer_example.cpp:41:56:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kcloud[m[K’
+     ewok::EuclideanDistanceRingBuffer<POW>::PointCloud [01;31m[Kcloud[m[K;
+                                                        [01;31m[K^~~~~[m[K
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/src/ring_buffer_example.cpp:43:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcloud[m[K’ was not declared in this scope
+     [01;31m[Kcloud[m[K.push_back(Eigen::Vector4f(-1, 1, 2, 0));
+     [01;31m[K^~~~~[m[K
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/src/ring_buffer_example.cpp:43:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kclose[m[K’
+     [01;36m[Kcloud[m[K.push_back(Eigen::Vector4f(-1, 1, 2, 0));
+     [01;36m[K^~~~~[m[K
+     [32m[Kclose[m[K
+In file included from [01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/src/tum_rgbd_ring_buffer_example.cpp:26:0[m[K:
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/include/ewok/ed_ring_buffer.h:34:18:[m[K [01;31m[Kerror: [m[Kuninitialized const ‘[01m[KPOW[m[K’ [[01;31m[K-fpermissive[m[K]
+ static const int [01;31m[KPOW[m[K;
+                  [01;31m[K^~~[m[K
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/src/ring_buffer_example.cpp:55:9:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KinsertPointCloud[m[K’ in ‘[01m[Krrb[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+     rrb.[01;31m[KinsertPointCloud[m[K(cloud, Eigen::Vector3f(0,0,0));
+         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/include/ewok/ed_ring_buffer.h:35:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kpnh[m[K’ does not name a type; did you mean ‘[01m[Kpowh[m[K’?
+ [01;31m[Kpnh[m[K.param("POW", POW, 6);  // EuclideanDistanceRingBuffer or UniformBSpline3DOptimization
+ [01;31m[K^~~[m[K
+ [32m[Kpowh[m[K
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/src/ring_buffer_example.cpp:56:9:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KupdateDistance[m[K’ in ‘[01m[Krrb[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+     rrb.[01;31m[KupdateDistance[m[K();
+         [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/src/ring_buffer_example.cpp:58:9:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KinsertPointCloud[m[K’ in ‘[01m[Krrb[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+     rrb.[01;31m[KinsertPointCloud[m[K(cloud, Eigen::Vector3f(0,0,0));
+         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/src/ring_buffer_example.cpp:59:9:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KupdateDistance[m[K’ in ‘[01m[Krrb[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+     rrb.[01;31m[KupdateDistance[m[K();
+         [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/src/ring_buffer_example.cpp:61:9:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KinsertPointCloud[m[K’ in ‘[01m[Krrb[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+     rrb.[01;31m[KinsertPointCloud[m[K(cloud, Eigen::Vector3f(0,0,0));
+         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/src/ring_buffer_example.cpp:62:9:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KupdateDistance[m[K’ in ‘[01m[Krrb[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+     rrb.[01;31m[KupdateDistance[m[K();
+         [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/src/ring_buffer_example.cpp:70:13:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KgetMarkerOccupied[m[K’ in ‘[01m[Krrb[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+         rrb.[01;31m[KgetMarkerOccupied[m[K(m_occ);
+             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/src/ring_buffer_example.cpp:71:13:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KgetMarkerFree[m[K’ in ‘[01m[Krrb[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+         rrb.[01;31m[KgetMarkerFree[m[K(m_free);
+             [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/src/ring_buffer_example.cpp:72:13:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KgetMarkerUpdated[m[K’ in ‘[01m[Krrb[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+         rrb.[01;31m[KgetMarkerUpdated[m[K(m_updated);
+             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/src/ring_buffer_example.cpp:73:13:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KgetMarkerDistance[m[K’ in ‘[01m[Krrb[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+         rrb.[01;31m[KgetMarkerDistance[m[K(m_dist, 0.9);
+             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/src/ring_buffer_example.cpp:80:13:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KmoveVolume[m[K’ in ‘[01m[Krrb[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+         rrb.[01;31m[KmoveVolume[m[K(Eigen::Vector3i(1,0,0));
+             [01;31m[K^~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/ring_buffer_example.dir/src/ring_buffer_example.cpp.o] Error 1
+make[1]: *** [CMakeFiles/ring_buffer_example.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/src/tum_rgbd_ring_buffer_example.cpp:117:35:[m[K [01;31m[Kerror: [m[Kthe value of ‘[01m[KPOW[m[K’ is not usable in a constant expression
+ ewok::EuclideanDistanceRingBuffer<[01;31m[KPOW[m[K> rrb(resolution, 1.0);
+                                   [01;31m[K^~~[m[K
+In file included from [01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/src/tum_rgbd_ring_buffer_example.cpp:26:0[m[K:
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/include/ewok/ed_ring_buffer.h:34:18:[m[K [01;36m[Knote: [m[K‘[01m[KPOW[m[K’ was not initialized with a constant expression
+ static const int [01;36m[KPOW[m[K;
+                  [01;36m[K^~~[m[K
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/src/tum_rgbd_ring_buffer_example.cpp:117:38:[m[K [01;31m[Kerror: [m[Kthe value of ‘[01m[KPOW[m[K’ is not usable in a constant expression
+ ewok::EuclideanDistanceRingBuffer<POW[01;31m[K>[m[K rrb(resolution, 1.0);
+                                      [01;31m[K^[m[K
+In file included from [01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/src/tum_rgbd_ring_buffer_example.cpp:26:0[m[K:
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/include/ewok/ed_ring_buffer.h:34:18:[m[K [01;36m[Knote: [m[K‘[01m[KPOW[m[K’ was not initialized with a constant expression
+ static const int [01;36m[KPOW[m[K;
+                  [01;36m[K^~~[m[K
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/src/tum_rgbd_ring_buffer_example.cpp:117:38:[m[K [01;36m[Knote: [m[Kin template argument for type ‘[01m[Kint[m[K’ 
+ ewok::EuclideanDistanceRingBuffer<POW[01;36m[K>[m[K rrb(resolution, 1.0);
+                                      [01;36m[K^[m[K
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/src/tum_rgbd_ring_buffer_example.cpp:117:59:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in initializer [[01;31m[K-fpermissive[m[K]
+ ewok::EuclideanDistanceRingBuffer<POW> rrb(resolution, 1.0[01;31m[K)[m[K;
+                                                           [01;31m[K^[m[K
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/src/tum_rgbd_ring_buffer_example.cpp:[m[K In function ‘[01m[Kvoid processImage(const cv::Mat&, const Matrix4f&)[m[K’:
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/src/tum_rgbd_ring_buffer_example.cpp:132:39:[m[K [01;31m[Kerror: [m[Kthe value of ‘[01m[KPOW[m[K’ is not usable in a constant expression
+     ewok::EuclideanDistanceRingBuffer<[01;31m[KPOW[m[K>::PointCloud cloud1;
+                                       [01;31m[K^~~[m[K
+In file included from [01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/src/tum_rgbd_ring_buffer_example.cpp:26:0[m[K:
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/include/ewok/ed_ring_buffer.h:34:18:[m[K [01;36m[Knote: [m[K‘[01m[KPOW[m[K’ was not initialized with a constant expression
+ static const int [01;36m[KPOW[m[K;
+                  [01;36m[K^~~[m[K
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/src/tum_rgbd_ring_buffer_example.cpp:132:42:[m[K [01;31m[Kerror: [m[Kthe value of ‘[01m[KPOW[m[K’ is not usable in a constant expression
+     ewok::EuclideanDistanceRingBuffer<POW[01;31m[K>[m[K::PointCloud cloud1;
+                                          [01;31m[K^[m[K
+In file included from [01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/src/tum_rgbd_ring_buffer_example.cpp:26:0[m[K:
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/include/ewok/ed_ring_buffer.h:34:18:[m[K [01;36m[Knote: [m[K‘[01m[KPOW[m[K’ was not initialized with a constant expression
+ static const int [01;36m[KPOW[m[K;
+                  [01;36m[K^~~[m[K
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/src/tum_rgbd_ring_buffer_example.cpp:132:42:[m[K [01;36m[Knote: [m[Kin template argument for type ‘[01m[Kint[m[K’ 
+     ewok::EuclideanDistanceRingBuffer<POW[01;36m[K>[m[K::PointCloud cloud1;
+                                          [01;36m[K^[m[K
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/src/tum_rgbd_ring_buffer_example.cpp:132:56:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kcloud1[m[K’
+     ewok::EuclideanDistanceRingBuffer<POW>::PointCloud [01;31m[Kcloud1[m[K;
+                                                        [01;31m[K^~~~~~[m[K
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/src/tum_rgbd_ring_buffer_example.cpp:154:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kcloud1[m[K’ was not declared in this scope
+                 [01;31m[Kcloud1[m[K.push_back(p);
+                 [01;31m[K^~~~~~[m[K
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/src/tum_rgbd_ring_buffer_example.cpp:154:17:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kclose[m[K’
+                 [01;36m[Kcloud1[m[K.push_back(p);
+                 [01;36m[K^~~~~~[m[K
+                 [32m[Kclose[m[K
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/src/tum_rgbd_ring_buffer_example.cpp:164:13:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KgetIdx[m[K’ in ‘[01m[Krrb[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+         rrb.[01;31m[KgetIdx[m[K(origin, idx);
+             [01;31m[K^~~~~~[m[K
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/src/tum_rgbd_ring_buffer_example.cpp:168:13:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KsetOffset[m[K’ in ‘[01m[Krrb[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+         rrb.[01;31m[KsetOffset[m[K(idx);
+             [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/src/tum_rgbd_ring_buffer_example.cpp:173:13:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KgetIdx[m[K’ in ‘[01m[Krrb[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+         rrb.[01;31m[KgetIdx[m[K(origin, origin_idx);
+             [01;31m[K^~~~~~[m[K
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/src/tum_rgbd_ring_buffer_example.cpp:175:22:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KgetVolumeCenter[m[K’ in ‘[01m[Krrb[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+         offset = rrb.[01;31m[KgetVolumeCenter[m[K();
+                      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/src/tum_rgbd_ring_buffer_example.cpp:181:17:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KmoveVolume[m[K’ in ‘[01m[Krrb[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+             rrb.[01;31m[KmoveVolume[m[K(diff.head<3>());
+                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/src/tum_rgbd_ring_buffer_example.cpp:192:9:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KinsertPointCloud[m[K’ in ‘[01m[Krrb[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+     rrb.[01;31m[KinsertPointCloud[m[K(cloud1, origin);
+         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/src/tum_rgbd_ring_buffer_example.cpp:192:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kcloud1[m[K’ was not declared in this scope
+     rrb.insertPointCloud([01;31m[Kcloud1[m[K, origin);
+                          [01;31m[K^~~~~~[m[K
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/src/tum_rgbd_ring_buffer_example.cpp:192:26:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kclose[m[K’
+     rrb.insertPointCloud([01;36m[Kcloud1[m[K, origin);
+                          [01;36m[K^~~~~~[m[K
+                          [32m[Kclose[m[K
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/src/tum_rgbd_ring_buffer_example.cpp:196:9:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KupdateDistance[m[K’ in ‘[01m[Krrb[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+     rrb.[01;31m[KupdateDistance[m[K();
+         [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/src/tum_rgbd_ring_buffer_example.cpp:210:9:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KgetMarkerOccupied[m[K’ in ‘[01m[Krrb[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+     rrb.[01;31m[KgetMarkerOccupied[m[K(m_occ);
+         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/src/tum_rgbd_ring_buffer_example.cpp:211:9:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KgetMarkerFree[m[K’ in ‘[01m[Krrb[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+     rrb.[01;31m[KgetMarkerFree[m[K(m_free);
+         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/src/tum_rgbd_ring_buffer_example.cpp:212:9:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KgetMarkerDistance[m[K’ in ‘[01m[Krrb[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+     rrb.[01;31m[KgetMarkerDistance[m[K(m_dist, 0.5);
+         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/tum_rgbd_ring_buffer_example.dir/src/tum_rgbd_ring_buffer_example.cpp.o] Error 1
+make[1]: *** [CMakeFiles/tum_rgbd_ring_buffer_example.dir/all] Error 2
+make: *** [all] Error 2

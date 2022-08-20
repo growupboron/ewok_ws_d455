@@ -1,0 +1,24 @@
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_simulation/src/trajectory_replanning_example_pointCloud.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_simulation/src/trajectory_replanning_example_pointCloud.cpp:335:48:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kewok::UniformBSpline3DOptimization<6>::setDistanceBuffer(ewok::EuclideanDistanceRingBuffer<6>::Ptr&)[m[K’
+     spline_optimization->setDistanceBuffer(edrb[01;31m[K)[m[K;
+                                                [01;31m[K^[m[K
+In file included from [01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_simulation/src/trajectory_replanning_example_pointCloud.cpp:30:0[m[K:
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_optimization/include/ewok/uniform_bspline_3d_optimization.h:126:8:[m[K [01;36m[Knote: [m[Kcandidate: void ewok::UniformBSpline3DOptimization<_N, _Scalar>::setDistanceBuffer(ewok::EuclideanDistanceRingBuffer<7>::Ptr&) [with int _N = 6; _Scalar = double; ewok::EuclideanDistanceRingBuffer<7>::Ptr = std::shared_ptr<ewok::EuclideanDistanceRingBuffer<7> >]
+   void [01;36m[KsetDistanceBuffer[m[K(EuclideanDistanceRingBuffer<7>::Ptr & edrb) {
+        [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_optimization/include/ewok/uniform_bspline_3d_optimization.h:126:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kewok::EuclideanDistanceRingBuffer<6>::Ptr {aka std::shared_ptr<ewok::EuclideanDistanceRingBuffer<6> >}[m[K’ to ‘[01m[Kewok::EuclideanDistanceRingBuffer<7>::Ptr& {aka std::shared_ptr<ewok::EuclideanDistanceRingBuffer<7> >&}[m[K’
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_simulation/src/trajectory_replanning_example.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_simulation/src/trajectory_replanning_example.cpp:329:48:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kewok::UniformBSpline3DOptimization<6>::setDistanceBuffer(ewok::EuclideanDistanceRingBuffer<6>::Ptr&)[m[K’
+     spline_optimization->setDistanceBuffer(edrb[01;31m[K)[m[K;
+                                                [01;31m[K^[m[K
+In file included from [01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_simulation/src/trajectory_replanning_example.cpp:47:0[m[K:
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_optimization/include/ewok/uniform_bspline_3d_optimization.h:126:8:[m[K [01;36m[Knote: [m[Kcandidate: void ewok::UniformBSpline3DOptimization<_N, _Scalar>::setDistanceBuffer(ewok::EuclideanDistanceRingBuffer<7>::Ptr&) [with int _N = 6; _Scalar = double; ewok::EuclideanDistanceRingBuffer<7>::Ptr = std::shared_ptr<ewok::EuclideanDistanceRingBuffer<7> >]
+   void [01;36m[KsetDistanceBuffer[m[K(EuclideanDistanceRingBuffer<7>::Ptr & edrb) {
+        [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_optimization/include/ewok/uniform_bspline_3d_optimization.h:126:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kewok::EuclideanDistanceRingBuffer<6>::Ptr {aka std::shared_ptr<ewok::EuclideanDistanceRingBuffer<6> >}[m[K’ to ‘[01m[Kewok::EuclideanDistanceRingBuffer<7>::Ptr& {aka std::shared_ptr<ewok::EuclideanDistanceRingBuffer<7> >&}[m[K’
+make[2]: *** [CMakeFiles/trajectory_replanning_pointcloud.dir/src/trajectory_replanning_example_pointCloud.cpp.o] Error 1
+make[1]: *** [CMakeFiles/trajectory_replanning_pointcloud.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/trajectory_replanning_example.dir/src/trajectory_replanning_example.cpp.o] Error 1
+make[1]: *** [CMakeFiles/trajectory_replanning_example.dir/all] Error 2
+make: *** [all] Error 2

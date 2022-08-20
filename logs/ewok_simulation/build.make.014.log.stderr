@@ -1,0 +1,11 @@
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_simulation/src/trajectory_replanning_example_pointCloud.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_simulation/src/trajectory_replanning_example_pointCloud.cpp:333:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kfor[m[K’
+     [01;31m[Kfor[m[K (int i = 0; i < num_opt_points; i++) {
+     [01;31m[K^~~[m[K
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_simulation/src/trajectory_replanning_example_pointCloud.cpp:333:21:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+     for (int i = 0; [01;31m[Ki[m[K < num_opt_points; i++) {
+                     [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/trajectory_replanning_pointcloud.dir/src/trajectory_replanning_example_pointCloud.cpp.o] Error 1
+make[1]: *** [CMakeFiles/trajectory_replanning_pointcloud.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [all] Error 2

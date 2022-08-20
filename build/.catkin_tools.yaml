@@ -1,0 +1,6 @@
+devel_space: /home/drone/Documents/ewok_ws_d455/devel
+install: false
+install_space: /home/drone/Documents/ewok_ws_d455/install
+profile: default
+source_space: /home/drone/Documents/ewok_ws_d455/src
+workspace: /home/drone/Documents/ewok_ws_d455

@@ -1,0 +1,1 @@
+/home/drone/Documents/ewok_ws_d455/devel/.private/mav_planning_msgs/share/common-lisp/ros/mav_planning_msgs/msg/Polygon2D.lisp

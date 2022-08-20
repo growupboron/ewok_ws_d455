@@ -1,0 +1,8 @@
+prefix=/home/drone/Documents/ewok_ws_d455/install
+
+Name: ewok_simulation
+Description: Description of ewok_simulation
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/drone/Documents/ewok_ws_d455/devel/.private/ewok_ring_buffer
+
+Name: ewok_ring_buffer
+Description: Description of ewok_ring_buffer
+Version: 0.0.0
+Cflags: -I/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/include
+Libs: -L${prefix}/lib 
+Requires: 

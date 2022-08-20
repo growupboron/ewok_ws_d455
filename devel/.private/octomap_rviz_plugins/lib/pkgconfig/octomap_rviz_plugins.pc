@@ -1,0 +1,8 @@
+prefix=/home/drone/Documents/ewok_ws_d455/devel/.private/octomap_rviz_plugins
+
+Name: octomap_rviz_plugins
+Description: Description of octomap_rviz_plugins
+Version: 0.2.2
+Cflags: -I/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/octomap_rviz_plugins/include
+Libs: -L${prefix}/lib -loctomap_rviz_plugins
+Requires: octomap_msgs roscpp rviz

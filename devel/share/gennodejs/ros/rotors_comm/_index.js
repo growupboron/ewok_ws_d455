@@ -1,0 +1,1 @@
+/home/drone/Documents/ewok_ws_d455/devel/.private/rotors_comm/share/gennodejs/ros/rotors_comm/_index.js

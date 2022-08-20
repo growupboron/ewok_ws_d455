@@ -1,0 +1,91 @@
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target spline_optimization_example2[0m
+[35m[1mScanning dependencies of target spline_optimization_example[0m
+[35m[1mScanning dependencies of target spline_optimization_example3[0m
+[ 25%] Built target polynomial_optimization_example
+[ 37%] [32mBuilding CXX object CMakeFiles/spline_optimization_example.dir/src/spline_optimization_example.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/spline_optimization_example2.dir/src/spline_optimization_example2.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/spline_optimization_example3.dir/src/spline_optimization_example3.cpp.o[0m
+In file included from [01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_optimization/src/spline_optimization_example.cpp:28:0[m[K:
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_optimization/include/ewok/uniform_bspline_3d_optimization.h:35:11:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kconst int POW[m[K’
+ const int [01;31m[KPOW[m[K = 7;
+           [01;31m[K^~~[m[K
+In file included from [01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_optimization/include/ewok/uniform_bspline_3d_optimization.h:29:0[m[K,
+                 from [01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_optimization/src/spline_optimization_example.cpp:28[m[K:
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/include/ewok/ed_ring_buffer.h:32:18:[m[K [01;36m[Knote: [m[K‘[01m[Kconst int POW[m[K’ previously defined here
+ static const int [01;36m[KPOW[m[K = 7;
+                  [01;36m[K^~~[m[K
+In file included from [01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_optimization/src/spline_optimization_example.cpp:28:0[m[K:
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_optimization/include/ewok/uniform_bspline_3d_optimization.h:36:11:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kconst int N[m[K’
+ const int [01;31m[KN[m[K = (1 << POW);
+           [01;31m[K^[m[K
+In file included from [01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_optimization/include/ewok/uniform_bspline_3d_optimization.h:29:0[m[K,
+                 from [01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_optimization/src/spline_optimization_example.cpp:28[m[K:
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/include/ewok/ed_ring_buffer.h:33:18:[m[K [01;36m[Knote: [m[K‘[01m[Kconst int N[m[K’ previously defined here
+ static const int [01;36m[KN[m[K = (1 << POW);
+                  [01;36m[K^[m[K
+In file included from [01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_optimization/src/spline_optimization_example2.cpp:28:0[m[K:
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_optimization/include/ewok/uniform_bspline_3d_optimization.h:35:11:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kconst int POW[m[K’
+ const int [01;31m[KPOW[m[K = 7;
+           [01;31m[K^~~[m[K
+In file included from [01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_optimization/include/ewok/uniform_bspline_3d_optimization.h:29:0[m[K,
+                 from [01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_optimization/src/spline_optimization_example2.cpp:28[m[K:
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/include/ewok/ed_ring_buffer.h:32:18:[m[K [01;36m[Knote: [m[K‘[01m[Kconst int POW[m[K’ previously defined here
+ static const int [01;36m[KPOW[m[K = 7;
+                  [01;36m[K^~~[m[K
+In file included from [01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_optimization/src/spline_optimization_example2.cpp:28:0[m[K:
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_optimization/include/ewok/uniform_bspline_3d_optimization.h:36:11:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kconst int N[m[K’
+ const int [01;31m[KN[m[K = (1 << POW);
+           [01;31m[K^[m[K
+In file included from [01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_optimization/include/ewok/uniform_bspline_3d_optimization.h:29:0[m[K,
+                 from [01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_optimization/src/spline_optimization_example2.cpp:28[m[K:
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/include/ewok/ed_ring_buffer.h:33:18:[m[K [01;36m[Knote: [m[K‘[01m[Kconst int N[m[K’ previously defined here
+ static const int [01;36m[KN[m[K = (1 << POW);
+                  [01;36m[K^[m[K
+In file included from [01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_optimization/src/spline_optimization_example3.cpp:28:0[m[K:
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_optimization/include/ewok/uniform_bspline_3d_optimization.h:35:11:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kconst int POW[m[K’
+ const int [01;31m[KPOW[m[K = 7;
+           [01;31m[K^~~[m[K
+In file included from [01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_optimization/include/ewok/uniform_bspline_3d_optimization.h:29:0[m[K,
+                 from [01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_optimization/src/spline_optimization_example3.cpp:28[m[K:
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/include/ewok/ed_ring_buffer.h:32:18:[m[K [01;36m[Knote: [m[K‘[01m[Kconst int POW[m[K’ previously defined here
+ static const int [01;36m[KPOW[m[K = 7;
+                  [01;36m[K^~~[m[K
+In file included from [01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_optimization/src/spline_optimization_example3.cpp:28:0[m[K:
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_optimization/include/ewok/uniform_bspline_3d_optimization.h:36:11:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kconst int N[m[K’
+ const int [01;31m[KN[m[K = (1 << POW);
+           [01;31m[K^[m[K
+In file included from [01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_optimization/include/ewok/uniform_bspline_3d_optimization.h:29:0[m[K,
+                 from [01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_optimization/src/spline_optimization_example3.cpp:28[m[K:
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/include/ewok/ed_ring_buffer.h:33:18:[m[K [01;36m[Knote: [m[K‘[01m[Kconst int N[m[K’ previously defined here
+ static const int [01;36m[KN[m[K = (1 << POW);
+                  [01;36m[K^[m[K
+CMakeFiles/spline_optimization_example.dir/build.make:62: recipe for target 'CMakeFiles/spline_optimization_example.dir/src/spline_optimization_example.cpp.o' failed
+make[2]: *** [CMakeFiles/spline_optimization_example.dir/src/spline_optimization_example.cpp.o] Error 1
+CMakeFiles/Makefile2:822: recipe for target 'CMakeFiles/spline_optimization_example.dir/all' failed
+make[1]: *** [CMakeFiles/spline_optimization_example.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+CMakeFiles/spline_optimization_example2.dir/build.make:62: recipe for target 'CMakeFiles/spline_optimization_example2.dir/src/spline_optimization_example2.cpp.o' failed
+make[2]: *** [CMakeFiles/spline_optimization_example2.dir/src/spline_optimization_example2.cpp.o] Error 1
+CMakeFiles/Makefile2:1167: recipe for target 'CMakeFiles/spline_optimization_example2.dir/all' failed
+make[1]: *** [CMakeFiles/spline_optimization_example2.dir/all] Error 2
+CMakeFiles/spline_optimization_example3.dir/build.make:62: recipe for target 'CMakeFiles/spline_optimization_example3.dir/src/spline_optimization_example3.cpp.o' failed
+make[2]: *** [CMakeFiles/spline_optimization_example3.dir/src/spline_optimization_example3.cpp.o] Error 1
+CMakeFiles/Makefile2:905: recipe for target 'CMakeFiles/spline_optimization_example3.dir/all' failed
+make[1]: *** [CMakeFiles/spline_optimization_example3.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

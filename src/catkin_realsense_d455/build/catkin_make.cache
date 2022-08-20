@@ -1,0 +1,2 @@
+VIO:mavros/libmavconn:mavros/mavros:mavros/mavros_extras:mavros/mavros_msgs:mavros/test_mavros:realsense-ros/realsense2_camera:realsense-ros/realsense2_description
+-DCATKIN_DEVEL_PREFIX=/home/drone/Documents/catkin_realsense/devel -DCMAKE_INSTALL_PREFIX=/home/drone/Documents/catkin_realsense/install -G Unix Makefiles

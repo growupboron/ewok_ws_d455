@@ -1,0 +1,101 @@
+<launch>
+
+   <arg name="dt" value="0.5" />
+   <arg name="num_opt_points" value="6" />
+   <arg name="distance_threshold" value="5.0" />
+   <arg name="max_velocity" value="2" />
+   <arg name="max_acceleration" value="0.5" />
+
+
+  <arg name="start_x" value="0.0"/>
+  <arg name="start_y" value="0.0"/>
+  <arg name="start_z" value="3.0"/>
+  <arg name="start_yaw" value="$(eval -pi/4)"/>
+
+  <arg name="middle_x" value="15.40"/>
+  <arg name="middle_y" value="-7.98"/>
+  <arg name="middle_z" value="3.0"/>
+  <arg name="middle_yaw" value="$(eval -pi/4)"/>
+
+  <arg name="stop_x" value="21.45"/>
+  <arg name="stop_y" value="-8.27"/>
+  <arg name="stop_z" value="3.0"/>
+  <arg name="stop_yaw" value="$(eval -pi/4)"/>
+
+
+  <arg name="fcu_url" default="/dev/ttyACM0:57600" />
+  <!-- check this if its sitl or usb. You have to launch different launch file while using sitl -->
+  <arg name="gcs_url" default="" />
+  <arg name="tgt_system" default="1" />
+  <arg name="tgt_component" default="1" />
+  <arg name="log_output" default="screen" />
+  <arg name="fcu_protocol" default="v2.0" />
+  <arg name="respawn_mavros" default="false" />
+  <!-- Launch MavROS -->
+      <include file="$(find mavros)/launch/node.launch">
+          <arg name="pluginlists_yaml" value="$(find mavros)/launch/px4_pluginlists.yaml" />
+          <!-- Need to change the config file to get the tf topic and get local position in terms of local origin -->
+          <arg name="config_yaml" value="$(find mavros)/launch/px4_config.yaml" />
+          <arg name="fcu_url" value="$(arg fcu_url)" />
+          <arg name="gcs_url" value="$(arg gcs_url)" />
+          <arg name="tgt_system" value="$(arg tgt_system)" />
+          <arg name="tgt_component" value="$(arg tgt_component)" />
+          <arg name="log_output" value="$(arg log_output)" />
+          <arg name="fcu_protocol" value="$(arg fcu_protocol)" />
+          <arg name="respawn_mavros" default="$(arg respawn_mavros)" />
+
+      </include>
+
+  <include file="$(find realsense2_camera)/launch/demo_pointcloud.launch" >
+  </include>
+
+<!--   <node pkg="ewok_simulation" type="pcNoise" name="pcNoise">
+        <param name="noise" value="0.2"/>
+    </node> -->
+
+  <node name="bspline_controller_rishabh" pkg="ewok_simulation" type="bspline_controller_rishabh" output="screen">
+      <param name="dt" value="$(arg dt)" />
+      <remap from="odometry" to="/mavros/local_position/odom" /> 
+    </node>
+
+    <node name="trajectory_replanning_pointcloud" pkg="ewok_simulation" type="trajectory_replanning_pointcloud" output="screen">
+
+    <!-- <node name="trajectory_replanning_rishabh" pkg="ewok_simulation" type="trajectory_replanning_rishabh" output="screen"> -->
+
+      <param name="dt" value="$(arg dt)" />
+      <param name="num_opt_points" value="$(arg num_opt_points)" />
+
+      <param name="distance_threshold" value="$(arg distance_threshold)" />
+      <param name="max_velocity" value="$(arg max_velocity)" />
+      <param name="max_acceleration" value="$(arg max_acceleration)" />
+
+      <param name="start_x" value="$(arg start_x)" />
+      <param name="start_y" value="$(arg start_y)" />
+      <param name="start_z" value="$(arg start_z)" />
+      <param name="start_yaw" value="$(arg start_yaw)" />
+
+      <param name="middle_x" value="$(arg middle_x)" />
+      <param name="middle_y" value="$(arg middle_y)" />
+      <param name="middle_z" value="$(arg middle_z)" />
+      <param name="middle_yaw" value="$(arg middle_yaw)" />
+
+      <param name="stop_x" value="$(arg stop_x)" />
+      <param name="stop_y" value="$(arg stop_y)" />
+      <param name="stop_z" value="$(arg stop_z)" />
+      <param name="stop_yaw" value="$(arg stop_yaw)" />
+    </node>
+
+
+<!-- <node pkg="tf" type="static_transform_publisher" name="mapWorldTF_broadcaster" args="0 0 0 -1.57 0 -1.57 world map 100" /> -->
+<node pkg="tf" type="static_transform_publisher" name="mapWorldTF_broadcaster" args="0 0 0  0 0 0 world map 100" />
+
+
+<node pkg="tf" type="static_transform_publisher" name="ewok_camTF_broadcaster" args="0 0 0 -1.57 0 -1.57  base_link camera_d455_link 100" />
+<!-- <node pkg="tf" type="static_transform_publisher" name="ewok_camTF_broadcaster" args="0 0 0 0 0 0  base_link d415_link 100" /> -->
+
+
+<node pkg="ewok_simulation" type="pubCamPose" name="pubCamPose"/>
+
+<node type="rviz" name="rviz" pkg="rviz" args="-d $(find ewok_simulation)/rviz/simulation_rishabh.rviz" />
+
+</launch>

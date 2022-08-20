@@ -1,0 +1,39 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/boron/catkin_ws/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/boron/catkin_ws/src/fastplanner_ws/src/FastPlannerOctomap/include/**",
+        "/home/boron/catkin_ws/src/copter/include/**",
+        "/home/boron/catkin_ws/src/ewok/ewok_optimization/include/**",
+        "/home/boron/catkin_ws/src/ewok/ewok_poly_spline/include/**",
+        "/home/boron/catkin_ws/src/ewok/ewok_ring_buffer/include/**",
+        "/home/boron/catkin_ws/src/ewok/ewok_simulation/include/**",
+        "/home/boron/catkin_ws/src/mavros/libmavconn/include/**",
+        "/home/boron/catkin_ws/src/ewok/mav_comm/mav_msgs/include/**",
+        "/home/boron/catkin_ws/src/ewok/mav_comm/mav_planning_msgs/include/**",
+        "/home/boron/Documents/IIITH/workspace/PX4-Autopilot/Tools/sitl_gazebo/include/**",
+        "/home/boron/catkin_ws/src/mavros/mavros/include/**",
+        "/home/boron/catkin_ws/src/mavros/mavros_msgs/include/**",
+        "/home/boron/catkin_ws/src/ewok/octomap_rviz_plugins/include/**",
+        "/home/boron/catkin_ws/src/ewok/rotors_simulator/rotors_control/include/**",
+        "/home/boron/catkin_ws/src/ewok/rotors_simulator/rotors_gazebo_plugins/include/**",
+        "/home/boron/catkin_ws/src/ewok/rotors_simulator/rotors_hil_interface/include/**",
+        "/home/boron/catkin_ws/src/ewok/rotors_simulator/rotors_joy_interface/include/**",
+        "/home/boron/catkin_ws/src/mavros/test_mavros/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

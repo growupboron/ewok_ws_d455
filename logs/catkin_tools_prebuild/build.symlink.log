@@ -1,0 +1,35 @@
+Symlinking /home/drone/Documents/ewok_ws_d455/devel/./local_setup.sh
+Symlinking /home/drone/Documents/ewok_ws_d455/devel/./setup.bash
+Symlinking /home/drone/Documents/ewok_ws_d455/devel/./setup.sh
+Symlinking /home/drone/Documents/ewok_ws_d455/devel/./cmake.lock
+Symlinking /home/drone/Documents/ewok_ws_d455/devel/./env.sh
+Symlinking /home/drone/Documents/ewok_ws_d455/devel/./local_setup.bash
+Symlinking /home/drone/Documents/ewok_ws_d455/devel/./_setup_util.py
+Symlinking /home/drone/Documents/ewok_ws_d455/devel/./local_setup.zsh
+Symlinking /home/drone/Documents/ewok_ws_d455/devel/./setup.zsh
+Symlinking /home/drone/Documents/ewok_ws_d455/devel/lib/pkgconfig/catkin_tools_prebuild.pc
+Symlinking /home/drone/Documents/ewok_ws_d455/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Symlinking /home/drone/Documents/ewok_ws_d455/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Cleaning: (/home/drone/Documents/ewok_ws/devel/.private/catkin_tools_prebuild/local_setup.sh, /home/drone/Documents/ewok_ws/devel/./local_setup.sh)
+Cleaning: (/home/drone/Documents/ewok_ws/devel/.private/catkin_tools_prebuild/setup.bash, /home/drone/Documents/ewok_ws/devel/./setup.bash)
+Cleaning: (/home/drone/Documents/ewok_ws/devel/.private/catkin_tools_prebuild/setup.sh, /home/drone/Documents/ewok_ws/devel/./setup.sh)
+Cleaning: (/home/drone/Documents/ewok_ws/devel/.private/catkin_tools_prebuild/cmake.lock, /home/drone/Documents/ewok_ws/devel/./cmake.lock)
+Cleaning: (/home/drone/Documents/ewok_ws/devel/.private/catkin_tools_prebuild/env.sh, /home/drone/Documents/ewok_ws/devel/./env.sh)
+Cleaning: (/home/drone/Documents/ewok_ws/devel/.private/catkin_tools_prebuild/local_setup.bash, /home/drone/Documents/ewok_ws/devel/./local_setup.bash)
+Cleaning: (/home/drone/Documents/ewok_ws/devel/.private/catkin_tools_prebuild/_setup_util.py, /home/drone/Documents/ewok_ws/devel/./_setup_util.py)
+Cleaning: (/home/drone/Documents/ewok_ws/devel/.private/catkin_tools_prebuild/local_setup.zsh, /home/drone/Documents/ewok_ws/devel/./local_setup.zsh)
+Cleaning: (/home/drone/Documents/ewok_ws/devel/.private/catkin_tools_prebuild/setup.zsh, /home/drone/Documents/ewok_ws/devel/./setup.zsh)
+Cleaning: (/home/drone/Documents/ewok_ws/devel/.private/catkin_tools_prebuild/lib/pkgconfig/catkin_tools_prebuild.pc, /home/drone/Documents/ewok_ws/devel/lib/pkgconfig/catkin_tools_prebuild.pc)
+Cleaning: (/home/drone/Documents/ewok_ws/devel/.private/catkin_tools_prebuild/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake, /home/drone/Documents/ewok_ws/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake)
+Cleaning: (/home/drone/Documents/ewok_ws/devel/.private/catkin_tools_prebuild/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake, /home/drone/Documents/ewok_ws/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake)
+Unlinking: /home/drone/Documents/ewok_ws/devel/./local_setup.sh
+Unlinking: /home/drone/Documents/ewok_ws/devel/./setup.bash
+Unlinking: /home/drone/Documents/ewok_ws/devel/./setup.sh
+Unlinking: /home/drone/Documents/ewok_ws/devel/./env.sh
+Unlinking: /home/drone/Documents/ewok_ws/devel/./local_setup.bash
+Unlinking: /home/drone/Documents/ewok_ws/devel/./_setup_util.py
+Unlinking: /home/drone/Documents/ewok_ws/devel/./local_setup.zsh
+Unlinking: /home/drone/Documents/ewok_ws/devel/./setup.zsh
+Unlinking: /home/drone/Documents/ewok_ws/devel/lib/pkgconfig/catkin_tools_prebuild.pc
+Unlinking: /home/drone/Documents/ewok_ws/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Unlinking: /home/drone/Documents/ewok_ws/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake

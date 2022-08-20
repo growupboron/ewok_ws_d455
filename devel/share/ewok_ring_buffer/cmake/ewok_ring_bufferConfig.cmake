@@ -1,0 +1,1 @@
+/home/drone/Documents/ewok_ws_d455/devel/.private/ewok_ring_buffer/share/ewok_ring_buffer/cmake/ewok_ring_bufferConfig.cmake

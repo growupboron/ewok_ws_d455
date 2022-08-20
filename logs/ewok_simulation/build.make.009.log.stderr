@@ -1,0 +1,45 @@
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_simulation/src/trajectory_replanning_rishabh.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_simulation/src/trajectory_replanning_rishabh.cpp:381:82:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd::shared_ptr<ewok::UniformBSpline3DOptimization<7> >::reset(ewok::UniformBSpline3DOptimization<6>*)[m[K’
+     spline_optimization.reset(new ewok::UniformBSpline3DOptimization<6>(traj, dt)[01;31m[K)[m[K;
+                                                                                  [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/7/bits/shared_ptr.h:52:0[m[K,
+                 from [01m[K/usr/include/c++/7/memory:81[m[K,
+                 from [01m[K/usr/include/c++/7/thread:39[m[K,
+                 from [01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_simulation/src/trajectory_replanning_rishabh.cpp:24[m[K:
+[01m[K/usr/include/c++/7/bits/shared_ptr_base.h:1234:7:[m[K [01;36m[Knote: [m[Kcandidate: void std::__shared_ptr<_Tp, _Lp>::reset() [with _Tp = ewok::UniformBSpline3DOptimization<7>; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2]
+       [01;36m[Kreset[m[K() noexcept
+       [01;36m[K^~~~~[m[K
+[01m[K/usr/include/c++/7/bits/shared_ptr_base.h:1234:7:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[01m[K/usr/include/c++/7/bits/shared_ptr_base.h:1239:2:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Yp> std::__shared_ptr<_Tp, _Lp>::_SafeConv<_Yp> std::__shared_ptr<_Tp, _Lp>::reset(_Yp*) [with _Yp = _Yp; _Tp = ewok::UniformBSpline3DOptimization<7>; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2]
+  [01;36m[Kreset[m[K(_Yp* __p) // _Yp must be complete.
+  [01;36m[K^~~~~[m[K
+[01m[K/usr/include/c++/7/bits/shared_ptr_base.h:1239:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/usr/include/c++/7/bits/shared_ptr_base.h:1248:2:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Yp, class _Deleter> std::__shared_ptr<_Tp, _Lp>::_SafeConv<_Yp> std::__shared_ptr<_Tp, _Lp>::reset(_Yp*, _Deleter) [with _Yp = _Yp; _Deleter = _Deleter; _Tp = ewok::UniformBSpline3DOptimization<7>; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2]
+  [01;36m[Kreset[m[K(_Yp* __p, _Deleter __d)
+  [01;36m[K^~~~~[m[K
+[01m[K/usr/include/c++/7/bits/shared_ptr_base.h:1248:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_simulation/src/trajectory_replanning_rishabh.cpp:381:82:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+     spline_optimization.reset(new ewok::UniformBSpline3DOptimization<6>(traj, dt)[01;36m[K)[m[K;
+                                                                                  [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/7/bits/shared_ptr.h:52:0[m[K,
+                 from [01m[K/usr/include/c++/7/memory:81[m[K,
+                 from [01m[K/usr/include/c++/7/thread:39[m[K,
+                 from [01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_simulation/src/trajectory_replanning_rishabh.cpp:24[m[K:
+[01m[K/usr/include/c++/7/bits/shared_ptr_base.h:1253:2:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Yp, class _Deleter, class _Alloc> std::__shared_ptr<_Tp, _Lp>::_SafeConv<_Yp> std::__shared_ptr<_Tp, _Lp>::reset(_Yp*, _Deleter, _Alloc) [with _Yp = _Yp; _Deleter = _Deleter; _Alloc = _Alloc; _Tp = ewok::UniformBSpline3DOptimization<7>; __gnu_cxx::_Lock_policy _Lp = (__gnu_cxx::_Lock_policy)2]
+  [01;36m[Kreset[m[K(_Yp* __p, _Deleter __d, _Alloc __a)
+  [01;36m[K^~~~~[m[K
+[01m[K/usr/include/c++/7/bits/shared_ptr_base.h:1253:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_simulation/src/trajectory_replanning_rishabh.cpp:381:82:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+     spline_optimization.reset(new ewok::UniformBSpline3DOptimization<6>(traj, dt)[01;36m[K)[m[K;
+                                                                                  [01;36m[K^[m[K
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_simulation/src/trajectory_replanning_rishabh.cpp:388:48:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kewok::UniformBSpline3DOptimization<7>::setDistanceBuffer(ewok::EuclideanDistanceRingBuffer<7>::Ptr&)[m[K’
+     spline_optimization->setDistanceBuffer(edrb[01;31m[K)[m[K;
+                                                [01;31m[K^[m[K
+In file included from [01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_simulation/src/trajectory_replanning_rishabh.cpp:45:0[m[K:
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_optimization/include/ewok/uniform_bspline_3d_optimization.h:122:8:[m[K [01;36m[Knote: [m[Kcandidate: void ewok::UniformBSpline3DOptimization<_N, _Scalar>::setDistanceBuffer(ewok::EuclideanDistanceRingBuffer<6>::Ptr&) [with int _N = 7; _Scalar = double; ewok::EuclideanDistanceRingBuffer<6>::Ptr = std::shared_ptr<ewok::EuclideanDistanceRingBuffer<6> >]
+   void [01;36m[KsetDistanceBuffer[m[K(EuclideanDistanceRingBuffer<6>::Ptr & edrb) {
+        [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_optimization/include/ewok/uniform_bspline_3d_optimization.h:122:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kewok::EuclideanDistanceRingBuffer<7>::Ptr {aka std::shared_ptr<ewok::EuclideanDistanceRingBuffer<7> >}[m[K’ to ‘[01m[Kewok::EuclideanDistanceRingBuffer<6>::Ptr& {aka std::shared_ptr<ewok::EuclideanDistanceRingBuffer<6> >&}[m[K’
+make[2]: *** [CMakeFiles/trajectory_replanning_rishabh.dir/src/trajectory_replanning_rishabh.cpp.o] Error 1
+make[1]: *** [CMakeFiles/trajectory_replanning_rishabh.dir/all] Error 2
+make: *** [all] Error 2

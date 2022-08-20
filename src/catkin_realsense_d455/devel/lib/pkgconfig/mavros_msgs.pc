@@ -1,0 +1,8 @@
+prefix=/home/drone/Documents/catkin_realsense/devel
+
+Name: mavros_msgs
+Description: Description of mavros_msgs
+Version: 1.7.1
+Cflags: -I/home/drone/Documents/catkin_realsense/devel/include -I/home/drone/Documents/catkin_realsense/src/mavros/mavros_msgs/include
+Libs: -L${prefix}/lib 
+Requires: geographic_msgs geometry_msgs message_runtime sensor_msgs std_msgs

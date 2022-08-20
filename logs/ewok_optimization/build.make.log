@@ -1,0 +1,28 @@
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target spline_optimization_example3[0m
+[35m[1mScanning dependencies of target spline_optimization_example[0m
+[35m[1mScanning dependencies of target spline_optimization_example2[0m
+[ 25%] Built target polynomial_optimization_example
+[ 37%] [32mBuilding CXX object CMakeFiles/spline_optimization_example3.dir/src/spline_optimization_example3.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/spline_optimization_example.dir/src/spline_optimization_example.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/spline_optimization_example2.dir/src/spline_optimization_example2.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable /home/drone/Documents/ewok_ws_d455/devel/.private/ewok_optimization/lib/ewok_optimization/spline_optimization_example[0m
+[ 87%] [32m[1mLinking CXX executable /home/drone/Documents/ewok_ws_d455/devel/.private/ewok_optimization/lib/ewok_optimization/spline_optimization_example2[0m
+[ 87%] Built target spline_optimization_example
+[ 87%] Built target spline_optimization_example2
+[100%] [32m[1mLinking CXX executable /home/drone/Documents/ewok_ws_d455/devel/.private/ewok_optimization/lib/ewok_optimization/spline_optimization_example3[0m
+[100%] Built target spline_optimization_example3

@@ -1,0 +1,11 @@
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/src/tum_rgbd_ring_buffer_example.cpp:106:18:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kconst int POW[m[K’
+ const static int [01;31m[KPOW[m[K = 6;
+                  [01;31m[K^~~[m[K
+In file included from [01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/src/tum_rgbd_ring_buffer_example.cpp:26:0[m[K:
+[01m[K/home/drone/Documents/ewok_ws_d455/src/Ewok-Planner/ewok/ewok_ring_buffer/include/ewok/ed_ring_buffer.h:32:11:[m[K [01;36m[Knote: [m[K‘[01m[Kconst int POW[m[K’ previously defined here
+ const int [01;36m[KPOW[m[K = 7;
+           [01;36m[K^~~[m[K
+make[2]: *** [CMakeFiles/tum_rgbd_ring_buffer_example.dir/src/tum_rgbd_ring_buffer_example.cpp.o] Error 1
+make[1]: *** [CMakeFiles/tum_rgbd_ring_buffer_example.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [all] Error 2
